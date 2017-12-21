@@ -1,0 +1,8 @@
+        //Tests an object interacting with another object through the interface
+        Student walt = new Student();
+        Baby kiddo = new Baby();
+        Doggo fido = new Doggo();
+        
+        walt.attack(fido);
+        System.out.println("Walt is alive: " + walt.isAlive());
+        System.out.println("The dog is alive: " + fido.isAlive());
