@@ -12,6 +12,7 @@ package tutoring;
 public class Tutoring {
 
     public static void main(String[] args) {
-        
+        Queens queen = new Queens(8);
+        System.out.println(queen);
     }
 }
