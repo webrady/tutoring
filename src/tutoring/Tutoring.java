@@ -12,7 +12,11 @@ package tutoring;
 public class Tutoring {
 
     public static void main(String[] args) {
-        Queens queen = new Queens(8);
-        System.out.println(queen);
+        ArraySet<Integer> set = new ArraySet<>();
+        set.add(1);
+        set.add(2);
+        set.add(4);
+        set.add(1);
+        System.out.println(set);
     }
 }
